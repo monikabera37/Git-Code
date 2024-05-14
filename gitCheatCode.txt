@@ -13,6 +13,11 @@ Commit changes to head (but not yet to the remote repository) = git commit -m "c
 to push local repository to remote repository = git push - u origin master
 Commit any files you've added with git add, and also commit any files you've changed since then: git commit -a
 
+Check out a repository:
+Create a working copy of a local repository=git clone /path/to/repository
+For a remote server, use=git clone username@host:/path/to/repository
+
+
 
 
 
