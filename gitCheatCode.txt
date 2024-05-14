@@ -10,3 +10,6 @@ Add all file to staging area = git add *
 to commit the selected file = git commit -m "comment/message"
 revert all local uncommitted changes = git checkout .
 unstage all files you might have staged with git add = git reset
+
+
+my nsmamr monika bera
