@@ -3,10 +3,16 @@ to open the File = start "FileName.extension"
 to make folder = mkdir "Folder Name"
 
 --------Git Basics---------
-to git initiate = git init
+Create a new local repository = git init
 to check status = git status
 Add to staging area  = git add "FileName.extension"
 Add all file to staging area = git add *
-to commit the selected file = git commit -m "comment/message"
 revert all local uncommitted changes = git checkout .
 unstage all files you might have staged with git add = git reset
+Commit changes to head (but not yet to the remote repository) = git commit -m "comment/message"
+to push local repository to remote repository = git push - u origin master
+Commit any files you've added with git add, and also commit any files you've changed since then: git commit -a
+
+
+
+

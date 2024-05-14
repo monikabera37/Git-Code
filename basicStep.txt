@@ -1,0 +1,6 @@
+-------Basic steps to push repository from local to remote---------
+git init
+git add *
+git status
+git commit -m "Commit message"
+git push -u origin master
